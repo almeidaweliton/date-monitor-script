@@ -1,3 +1,4 @@
+// Script para monitorar mudança de data usando iframe - VERSÃO CORRIGIDA
 javascript:(function() {
     'use strict';
     
