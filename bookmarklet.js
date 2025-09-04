@@ -18,8 +18,7 @@ javascript:(function() {
     
     // Função para obter a data atual no formato DD/MM/YYYY
     function getCurrentDate() {
-        const now = new Date(2025, 8, 2);
-        // const now = new Date();
+        const now = new Date();
         const day = String(now.getDate()).padStart(2, '0');
         const month = String(now.getMonth() + 1).padStart(2, '0');
         const year = now.getFullYear();
